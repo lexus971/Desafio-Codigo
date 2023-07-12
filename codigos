@@ -1,0 +1,60 @@
+'''
+
+1. 
+
+def reverter_ordem_palavras(frase):
+    palavras = frase.split()  
+    palavras_revertidas = palavras[::-1]  
+    frase_revertida = ' '.join(palavras_revertidas)  
+    return frase_revertida
+
+
+frase_original = "Hello, World! OpenAI is amazing"
+frase_revertida = reverter_ordem_palavras(frase_original)
+print(frase_revertida)
+
+
+2.
+
+def remover_caracteres_duplicados(frase):
+    caracteres_unicos = []
+    for e in frase:
+        if e not in caracteres_unicos:
+            caracteres_unicos.append(e)
+    frase_sem_duplicatas = ''.join(caracteres_unicos)
+    return frase_sem_duplicatas
+
+
+frase_original = "Hello, World!"
+frase_sem_duplicatas = remover_caracteres_duplicados(frase_original)
+print(frase_sem_duplicatas)
+
+
+
+3.
+
+
+
+4.
+
+def primeira_letra_maiuscula(string):
+    frases = string.split('. ')
+    frases_formatadas = [e.capitalize() for e in frases]
+    string_formatada = '. '.join(frases_formatadas)
+
+    return string_formatada
+
+frase = "hello. how are you? i'm fine, thank you"
+frase_formatada = primeira_letra_maiuscula(frase)
+print(frase_formatada)
+
+
+5.
+
+''' 
+
+
+
+
+
+
